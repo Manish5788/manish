@@ -16,18 +16,6 @@ sap.ui.define([
             handlePopoverPress: function (oEvent) {
                 MessageBox.information("Execute Order 66");
 
-            },
-            onHomePress: function () {
-                var oIconTabHeader = this.byId('iconTabHeader');
-                oIconTabHeader.setSelectedKey('invalidKey');
-
-                var oLabel = this.byId('labelId');
-            },
-
-            onSelectTab: function (event) {
-                var oLabel = this.byId('labelId');
-                var oTab = event.getParameter('item');
-
             }
         });
     });
