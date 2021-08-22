@@ -1,0 +1,15 @@
+<mvc:View controllerName="netlify.Netlify_App.controller.Netlify_View" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Carousel class="sapUiContentPadding" loop="true">
+							<Button id="BadgedButton" class="sapUiTinyMarginBeginEnd" icon="sap-icon://accept" type="Default" text="Netlify"></Button>
+						</Carousel>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
