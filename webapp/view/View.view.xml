@@ -10,7 +10,7 @@
 				<Page id="page" title="{i18n>title}">
 							<content>
 				
-							<Button id="BadgedButton" class="sapUiTinyMarginBeginEnd" icon="sap-icon://accept" type="Default" text="Netlify"></Button>
+							<Button id="BadgedButton" class="sapUiTinyMarginBeginEnd" icon="sap-icon://accept" type="Default" text="Netlif"></Button>
 				
 					</content>
 				</Page>
