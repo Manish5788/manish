@@ -10,12 +10,13 @@
 				<Page id="page" title="{i18n>title}">
 							<content>
 				
-							<Button id="BadgedButton" class="sapUiTinyMarginBeginEnd" icon="sap-icon://accept" type="Default" text="Netlify"></Button>
-							<Carousel class="sapUiContentPadding" loop="true">
-		               <Image src="{model/Manish.png}" alt="Example picture of USB flash drive" />
-		               <Image src="{/model/pic.png}" alt="Example picture of spotlight" />
+					   <Button id="BadgedButton" class="sapUiTinyMarginBeginEnd" 				press="handlePopoverPress"
+ icon="sap-icon://accept" type="Default" text="Netlify"></Button>
+					 <Carousel class="sapUiContentPadding" loop="true">
+		               <Image src="{model>Manish.png}" alt="Example picture of USB flash drive" />
+		               <Image src="{model/pic.png}" alt="Example picture of spotlight" />
 		               <Image src="{img>/products/screw}" alt="Example picture of screw" />
-                       	</Carousel>
+                    </Carousel>
 
 					</content>
 				</Page>
