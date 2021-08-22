@@ -1,12 +1,21 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller",
-	"sap/ui/model/json/JSONModel"
-], function (Controller, JSONModel) {
-	"use strict";
+    "sap/ui/core/mvc/Controller",
+    "sap/m/MessageBox",
+    "sap/m/MessageToast"
+],
+	/**
+	 * @param {typeof sap.ui.core.mvc.Controller} Controller
+	 */
+	function (Controller,MessageBox, MessageToast) {
+		"use strict";
 
-	return Controller.extend("netlify.Netlify_App.controller.Netlify_View", {
-		onInit: function () {
+		return Controller.extend("pro.project1.controller.View", {
+			onInit: function () {
+
+            },
+            		handlePopoverPress: function (oEvent) {
+					MessageBox.information("Execute Order 66");
 
 		}
+		});
 	});
-});
