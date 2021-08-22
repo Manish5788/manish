@@ -1,3 +1,4 @@
 {
-    "actions": []
+    "actions": [],
+    "[xml].editor.defaultFormatter": "dotjoshjohnson.xml"
 }

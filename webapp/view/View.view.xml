@@ -1,26 +1,28 @@
-<mvc:View
-    controllerName="pro.project1.controller.View"
-    xmlns:mvc="sap.ui.core.mvc"
-    displayBlock="true"
-    xmlns="sap.m"
->
-	<Shell id="shell">
-		<App id="app">
-			<pages>
-				<Page id="page" title="{i18n>title}">
-							<content>
-				
-					   <Button id="BadgedButton" class="sapUiTinyMarginBeginEnd" 				press="handlePopoverPress"
- icon="sap-icon://accept" type="Default" text="Netlify"></Button>
-					 <Carousel class="sapUiContentPadding" loop="true">
-		               <Image src="{model>Manish.png}" alt="Example picture of USB flash drive" />
-		               <Image src="{model/pic.png}" alt="Example picture of spotlight" />
-		               <Image src="{img>/products/screw}" alt="Example picture of screw" />
-                    </Carousel>
+<mvc:View controllerName="pro.project1.controller.View"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
 
-					</content>
-				</Page>
-			</pages>
-		</App>
-	</Shell>
+                        <Button id="BadgedButton" class="sapUiTinyMarginBeginEnd" press="handlePopoverPress" icon="sap-icon://accept" type="Default" text="Netlify"></Button>
+                        <Carousel class="sapUiContentPadding" loop="true">
+                            <Image src="{model/Manish.png}" class="sapUiLargeMarginTop sapUiLargeMarginBottom" alt="Example picture of USB flash drive" />
+                            <Image src="{/model/pic.png}" class="sapUiTinyMarginBeginEnd" alt="Example picture of spotlight" />
+                        </Carousel>
+
+                    </content>
+                    <footer>
+                        <OverflowToolbar>
+                            <ToolbarSpacer/>
+                            <Button type="Accept" text="Accept"/>
+                            <Button type="Reject" text="Reject"/>
+                        </OverflowToolbar>
+                    </footer>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
 </mvc:View>
