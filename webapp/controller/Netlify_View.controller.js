@@ -22,14 +22,12 @@ sap.ui.define([
                 oIconTabHeader.setSelectedKey('invalidKey');
 
                 var oLabel = this.byId('labelId');
-                oLabel.setText('Home Screen');
             },
 
             onSelectTab: function (event) {
                 var oLabel = this.byId('labelId');
                 var oTab = event.getParameter('item');
 
-                oLabel.setText(oTab.getText());
             }
         });
     });
