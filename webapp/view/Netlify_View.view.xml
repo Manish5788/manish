@@ -5,7 +5,7 @@
 				<Page id="page" title="{i18n>title}">
 					<content>
 						<Carousel class="sapUiContentPadding" loop="true">
-							<Button id="BadgedButton" class="sapUiTinyMarginBeginEnd" icon="sap-icon://accept" type="Default" text="Netlify"></Button>
+							<Button id="BadgedButton" press="handlePopoverPress" class="sapUiTinyMarginBeginEnd" icon="sap-icon://accept" type="Default" text="Netlify"></Button>
 						</Carousel>
 					</content>
 				</Page>
