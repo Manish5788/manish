@@ -7,20 +7,20 @@
             <pages>
                 <Page id="page" title="{i18n>title}">
                     <tnt:ToolHeader>
-                        <Button icon="sap-icon://home" type="Transparent" press=".onHomePress">
+                        <Button icon="sap-icon://home" type="Transparent">
                             <layoutData>
                                 <OverflowToolbarLayoutData priority="NeverOverflow" />
                             </layoutData>
                         </Button>
-                        <IconTabHeader id="iconTabHeader" selectedKey="invalidKey" select=".onSelectTab" backgroundDesign="Transparent" mode="Inline">
+                        <IconTabHeader id="iconTabHeader" selectedKey="invalidKey"  backgroundDesign="Transparent" mode="Inline">
                             <layoutData>
                                 <OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true" />
                             </layoutData>
                             <items>
-                                <IconTabFilter text="Documentation" />
-                                <IconTabFilter text="Explored" />
-                                <IconTabFilter text="API Reference" />
-                                <IconTabFilter text="Demo Apps" />
+                                <IconTabFilter text="Fun" />
+                                <IconTabFilter text="ABAP Explored" />
+                                <IconTabFilter text="Blogs" />
+                                <IconTabFilter text="My Work" />
                             </items>
                         </IconTabHeader>
                         <Button icon="sap-icon://search" type="Transparent">
